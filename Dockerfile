@@ -16,6 +16,8 @@ RUN ls -la && cat composer.json
 RUN composer install --no-dev --no-interaction --prefer-dist --ignore-platform-reqs
 
 RUN chown -R www-data:www-data /var/www/html && chmod -R 755 /var/www/html
+RUN chown -R www-data:www-data /var/www/html/writable && chmod -R 775 /var/www/html/writable
+
 
 RUN sed -i 's|DocumentRoot /var/www/html|DocumentRoot /var/www/html/public|' /etc/apache2/sites-available/000-default.conf
 
