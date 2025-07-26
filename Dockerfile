@@ -31,4 +31,4 @@ RUN echo '<Directory /var/www/html/public>\n\
     Require all granted\n\
 </Directory>' >> /etc/apache2/apache2.conf
 
-RUN whoami && id && ls -ld /var/www/html/writable/cache
+RUN whoami && id && [ -d writable/cache ] && ls -ld writable/cache || echo "Cache folder missing"
