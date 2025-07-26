@@ -13,12 +13,13 @@ COPY . .
 
 RUN ls -la && cat composer.json
 
+RUN usermod -u 1000 www-data && groupmod -g 1000 www-data
+
 RUN composer install --no-dev --no-interaction --prefer-dist --ignore-platform-reqs
 
 RUN chown -R www-data:www-data /var/www/html && chmod -R 755 /var/www/html
-RUN chown -R www-data:www-data /var/www/html/writable \
- && find /var/www/html/writable -type d -exec chmod 775 {} \; \
- && find /var/www/html/writable -type f -exec chmod 664 {} \;
+RUN chown -R www-data:www-data /var/www/html/writable && \
+    chmod -R ug+rwX /var/www/html/writable
 
 
 
