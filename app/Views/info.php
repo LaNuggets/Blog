@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="header">
-        <a href="<?= base_url('/') ?>" class="btn-posts">Home</a>
+        <a href="<?= base_url('/blog') ?>" class="btn-posts">Stage</a>
         <a href="<?= base_url('/posts') ?>" class="btn-posts">Voir les Posts</a>
     </div>
     <h1>CHU Nantes</h1>

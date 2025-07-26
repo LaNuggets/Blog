@@ -10,8 +10,8 @@ $formatter = new \IntlDateFormatter(
 );
 ?>
     <div class="header">
-        <a href="<?= base_url('/') ?>" class="btn-posts">Home</a>
-        <a href="<?= base_url('/info') ?>" class="btn-posts">C'est quoi ce stage ?</a>
+        <a href="<?= base_url('/blog') ?>" class="btn-posts">Stage</a>
+        <a href="<?= base_url('/info') ?>" class="btn-posts">L'entreprise</a>
     </div>
 <h1>Liste des posts</h1>
 </br>
