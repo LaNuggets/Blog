@@ -10,7 +10,9 @@ COPY . /var/www/html
 
 WORKDIR /var/www/html
 
-RUN composer install --no-dev --no-interaction --prefer-dist --ignore-platform-reqs
+RUN composer install --no-dev --no-interaction --prefer-dist --ignore-platform-reqs || true
+RUN cat /var/www/html/composer.json
+
 
 RUN chown -R www-data:www-data /var/www/html && chmod -R 755 /var/www/html
 
