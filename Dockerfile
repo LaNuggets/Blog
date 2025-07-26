@@ -1,14 +1,14 @@
 FROM php:8.3-apache
 
-RUN docker-php-ext-install mysqli pdo pdo_mysql
-
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+RUN apt update && apt install -y zip unzip git libicu-dev libonig-dev && \
+    docker-php-ext-install pdo pdo_mysql intl mbstring
 
 RUN a2enmod rewrite
 
-COPY . /var/www/html
+COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
 WORKDIR /var/www/html
+COPY . .
 
 RUN ls -la && cat composer.json
 
