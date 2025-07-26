@@ -1,0 +1,122 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ff5555;
+}
+
+h4 {
+    color: #ff8888;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #c8c8c8;
+}
+
+.header {
+    text-align: center;
+}
+
+.post-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    gap: 20px;
+}
+
+.post {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    padding: 20px;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+
+.post-container::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2000px;
+    height: 700px;
+    background-image: url('/images/waves.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.post-container.row-reverse::before {
+    /* left: -20px; */
+}
+
+.post-container:not(.row-reverse)::before {
+    right: -30px;
+}
+
+.image-wrapper {
+    margin-top: 10px;
+}
+
+.post-actions {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.post-actions button {
+    width: fit-content;
+    align-self: flex-start;
+    padding: 8px 15px;
+}
+
+.post img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.comments {
+    margin-top: 20px;
+    border-left: 3px solid #444;
+    padding-left: 15px;
+}
+
+button,.btn-posts  {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+button,.btn-posts:hover {
+    background-color: #444;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #2a2a2a;
+    border: 1px solid #555;
+    color: #eee;
+    padding: 5px;
+    border-radius: 4px;
+}
