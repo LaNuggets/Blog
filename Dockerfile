@@ -1,7 +1,7 @@
 FROM php:8.3-apache
 
 RUN apt update && apt install -y zip unzip git libicu-dev libonig-dev && \
-    docker-php-ext-install pdo pdo_mysql intl mbstring
+    docker-php-ext-install mysqli pdo pdo_mysql intl mbstring
 
 RUN a2enmod rewrite
 
@@ -33,4 +33,4 @@ RUN echo '<Directory /var/www/html/public>\n\
     Require all granted\n\
 </Directory>' >> /etc/apache2/apache2.conf
 
-RUN whoami && id && [ -d writable/cache ] && ls -ld writable/cache || echo "Cache folder missing"
+RUN docker-php-ext-install mysqli
