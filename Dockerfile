@@ -7,7 +7,7 @@ RUN a2enmod rewrite
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-COPY .env.example /var/www/html/.env
+# COPY .env.example /var/www/html/.env
 WORKDIR /var/www/html
 COPY . .
 RUN mkdir -p writable/cache writable/logs writable/session writable/uploads writable/debugbar
