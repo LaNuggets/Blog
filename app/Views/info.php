@@ -7,16 +7,16 @@
     <title>Home</title>
 </head>
 <body>
-
     <div class="header">
-    <h1>Mon blog</h1>
         <div class="nav-links">
             <a href="<?= base_url('/blog') ?>" class="btn-posts">Stage</a>
             <a href="<?= base_url('/posts') ?>" class="btn-posts">Posts</a>
         </div>
     </div>
     <main style="padding:20px;">
-        <h1>CHU Nantes</h1>
+        <div class="main-header">
+            <h1>IRS 2 - Nantes</h1>
+        </div>
         <p>L'Institut de Recherche en Santé 2 - INSERM, C'est la où j'ai fait mon stage pendant 2 mois</p>
         <h2>Mes missions ?</h2>
         <p>J'avais pour taches d'améliorer leur site</br>

@@ -11,11 +11,13 @@ $formatter = new \IntlDateFormatter(
 ?>
 
 <div class="header">
-    <h1>Mes posts</h1>
     <div class="nav-links">
     <a href="<?= base_url('/blog') ?>" class="btn-posts">Stage</a>
     <a href="<?= base_url('/info') ?>" class="btn-posts">L'entreprise</a>
     </div>
+<div class="main-header">
+    <h1>Mes posts</h1>
+</div>
 </div>
 </br>
 </br>
