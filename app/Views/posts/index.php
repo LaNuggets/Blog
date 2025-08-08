@@ -15,6 +15,7 @@ $formatter = new \IntlDateFormatter(
     <a href="<?= base_url('/blog') ?>" class="btn-posts">Stage</a>
     <a href="<?= base_url('/info') ?>" class="btn-posts">L'entreprise</a>
     </div>
+    <hr>
 <div class="main-header">
     <h1>Mes posts</h1>
 </div>
@@ -78,6 +79,19 @@ $formatter = new \IntlDateFormatter(
     </div>
 </div>
 <?php endforeach; ?>
-
+    <hr>
+    <div class="footer">
+        <div class="footer-links">
+            <a href="https://github.com/LaNuggets" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/aur%C3%A9lien-dugast-533886334/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="/public/uploads/CV_Aurelien_Dugast.pdf" target="_blank" aria-label="CV">
+                <i class="fas fa-file-pdf"></i>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
