@@ -22,7 +22,26 @@ h3 {
 }
 
 .header {
-    text-align: center;
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+.nav-links a:hover {
+    background-color: #444;
 }
 
 .post-container {

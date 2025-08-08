@@ -9,11 +9,14 @@ $formatter = new \IntlDateFormatter(
     'd MMMM yyyy'
 );
 ?>
-    <div class="header">
-        <a href="<?= base_url('/blog') ?>" class="btn-posts">Stage</a>
-        <a href="<?= base_url('/info') ?>" class="btn-posts">L'entreprise</a>
+
+<div class="header">
+    <h1>Mes posts</h1>
+    <div class="nav-links">
+    <a href="<?= base_url('/blog') ?>" class="btn-posts">Stage</a>
+    <a href="<?= base_url('/info') ?>" class="btn-posts">L'entreprise</a>
     </div>
-<h1>Liste des posts</h1>
+</div>
 </br>
 </br>
 </br>
