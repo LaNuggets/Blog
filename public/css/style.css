@@ -61,12 +61,14 @@ hr {
 }
 
 .footer-links a {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:40px;
     height: 40px;
     background-color: #00000000;
     margin: 5px;
-    border: 2px solid #c8c8c8;
+    border: 2px solid #7a7a7a;
     color: #c8c8c8;
     font-size: 24px;
     margin: 0 10px;
