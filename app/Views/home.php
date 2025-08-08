@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="<?= base_url('css/style.css') ?>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
 </head>
 <body>
-    <div class="header">
+    <header>
         <div class="nav-links">
             <a href="<?= base_url('/blog') ?>" class="btn-posts">Blog</a>
             <a href="<?= base_url('/info') ?>" class="btn-posts">L'entreprise</a>
             <a href="<?= base_url('/posts') ?>" class="btn-posts">Les Posts</a>
             <a href="<?= base_url('/contact') ?>" class="btn-posts">Contact</a>
         </div>
-    </div>
+    </header>
     <hr>
     <main style="padding:20px;">
         <div class="main-header">
@@ -25,7 +26,7 @@
         </h3>
     </main>
     <hr>
-    <div class="footer">
+    <footer>
         <div class="footer-links">
             <a href="https://github.com/LaNuggets" target="_blank" aria-label="GitHub">
                 <i class="fab fa-github"></i>
@@ -37,6 +38,6 @@
                 <i class="fas fa-file-pdf"></i>
             </a>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
