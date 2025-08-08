@@ -60,13 +60,20 @@ hr {
     padding: 10px;
 }
 
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 .footer-links a {
     display: flex;
     justify-content: center;
     align-items: center;
     width:40px;
     height: 40px;
-    background-color: #00000000;
+    background-color: transparent;
     margin: 5px;
     border: 2px solid #7a7a7a;
     color: #c8c8c8;
@@ -80,9 +87,6 @@ hr {
     background-color: #444;
 }
 
-.social-icons i {
-    font-size: 10px;
-}
 
 .post-container {
     position: relative;
