@@ -8,12 +8,12 @@
     <title>Home</title>
 </head>
 <body>
-    <header>
+    <div class="header">
         <div class="nav-links">
             <a href="<?= base_url('/blog') ?>" class="btn-posts">Stage</a>
             <a href="<?= base_url('/posts') ?>" class="btn-posts">Posts</a>
         </div>
-    </header>
+    </div>
     <hr>
     <main style="padding:20px;">
         <div class="main-header">
@@ -39,7 +39,7 @@
         </p>
     </main>
     <hr>
-    <footer>
+    <div class="footer">
         <div class="footer-links">
             <a href="https://github.com/LaNuggets" target="_blank" aria-label="GitHub">
                 <i class="fab fa-github"></i>
@@ -51,6 +51,6 @@
                 <i class="fas fa-file-pdf"></i>
             </a>
         </div>
-    </footer>
+    </div>
 </body>
 </html>
