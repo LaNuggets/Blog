@@ -19,16 +19,17 @@ $formatter = new \IntlDateFormatter(
 ?>
 <body>
 
-<div class="header">
-    <div class="nav-links">
-    <a href="<?= base_url('/blog') ?>" class="btn-posts">Stage</a>
-    <a href="<?= base_url('/info') ?>" class="btn-posts">Entreprise</a>
+    <div class="header">
+        <div class="nav-links">
+        <a href="<?= base_url('/blog') ?>" class="btn-posts">Stage</a>
+        <a href="<?= base_url('/info') ?>" class="btn-posts">Entreprise</a>
+        </div>
     </div>
     <hr>
-<div class="main-header">
-    <h1>Mes posts</h1>
-</div>
-</div>
+    <main style="padding:20px;">
+        <div class="main-header">
+            <h1>Mes posts</h1>
+        </div>
 </br>
 </br>
 </br>
@@ -102,5 +103,6 @@ $formatter = new \IntlDateFormatter(
             </a>
         </div>
     </div>
+</main>
 </body>
 </html>
