@@ -4,6 +4,7 @@ RUN apt update && apt install -y \
     zip unzip git libicu-dev libonig-dev libpq-dev \
     && docker-php-ext-install mysqli pdo pdo_mysql intl mbstring pdo_pgsql pgsql
 
+    
 RUN a2enmod rewrite
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
