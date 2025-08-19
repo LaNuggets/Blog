@@ -13,6 +13,9 @@
         <label for="title">Titre</label>
         <input type="text" name="title" required><br><br>
 
+        <label for="date">Date</label>
+        <input type="date" name="date"><br><br>
+
         <label for="content">Contenu</label><br>
         <textarea name="content" rows="5" required></textarea><br><br>
 

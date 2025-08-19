@@ -1,5 +1,12 @@
-<link rel="stylesheet" href="<?= base_url('css/style.css') ?>">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="<?= base_url('css/style.css') ?>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postes</title>
+</head>
 <?php
 $formatter = new \IntlDateFormatter(
     'fr_FR',
@@ -10,11 +17,12 @@ $formatter = new \IntlDateFormatter(
     'd MMMM yyyy'
 );
 ?>
+<body>
 
 <div class="header">
     <div class="nav-links">
     <a href="<?= base_url('/blog') ?>" class="btn-posts">Stage</a>
-    <a href="<?= base_url('/info') ?>" class="btn-posts">L'entreprise</a>
+    <a href="<?= base_url('/info') ?>" class="btn-posts">Entreprise</a>
     </div>
     <hr>
 <div class="main-header">

@@ -37,12 +37,18 @@ class PostController extends BaseController
         } else {
             $newName = null;
         }
+        
+        if($this->request->getPost('date') == "" || $this->request->getPost('date') == null){
+            $publication_date = date('Y-m-d');
+        } else {
+            $publication_date = $this->request->getPost('date');
+        }
 
         $postModel->save([
             'title'            => $this->request->getPost('title'),
             'content'          => $this->request->getPost('content'),
             'image'            => $newName,
-            'publication_date' => date('Y-m-d')
+            'publication_date' => $publication_date
         ]);
 
         return redirect()->to('/posts')->with('success', 'Post créé avec succès');
