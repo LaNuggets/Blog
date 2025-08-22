@@ -18,4 +18,9 @@ class Home extends BaseController
     {
         return view('blog');
     }
+    
+    public function tech(): string
+    {
+        return view('tech');
+    }
 }

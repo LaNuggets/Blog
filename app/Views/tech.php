@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explication</title>
+</head>
+<body>
+    <h1>Explication</h1>
+
+    <p>
+    Comme dit plus haut ce site avait déjà été commencé par d'ancien stagiaires.<br>
+    Les technos qui ont été choisis sont : PHP avec le framework Codeigniter 3, JavaScript avec materialize js, html, css.<br>
+    En ce qui me concerne je connaissais évidemment déjà tous c'est langage mais pas les framework.<br>
+    Après utilisation je peux dire que codeigniter à avantage et inconvénient.<br>
+    Il est très léger (même pas 50 Mo), comme beaucoup il utilise le model MVC(Model, Vue, controlleur).<br>
+    Beaucoup de choses sont faite de manière automatique comme les routes (pas besoin de les créer manuellement dans un quelconque fichier, il suffit de créer une fonction dans un controller et bim la route est opérationnelle), il est d'une facilité d'utilisation remarquable, ça mise en service est d'une rapidité qui m'a beaucoup épaté.<br>
+    Je l'ai utilisé pour faire mon blog et je m'attendais à mettre plusieurs minutes, voir même heures pour l'installer et commencé à codé. Que nenni ! Il suffit de cloner le repo github supprimer 2 fichiers et c'est partie.<br>
+    Cependant ce framework a aussi des default.<br>
+    Il n'y a aucune commande pour la création d'un MVC, tous doivent être créé manuellement ce qui est parfois fatiguant.<br>
+    C'est d'ailleurs le seul problème vraiment impactant que j'ai trouvé mais il est de taille.<br>
+    </br>
+    Pour une vue plus approfondit voici a quoi ressemble l'arborescence des fichiers (je n'ai mis ici que les fichiers principaux):<br>
+    </br>
+    ┬ Projet
+    ├───┬ applications/
+    │   ├──── config/
+    │   ├──── controllers/
+    │   ├──── database/
+    │   ├──── heplers/
+    │   ├──── models/
+    │   ├──── logs/
+    │   ├──── viwes/
+    │   └──── ...
+    ├───┬ assets/
+    │   ├──── css/
+    │   ├──── js/
+    │   └──── ...
+    ├───┬ cron/
+    │   ├──── everyDay.php
+    │   └──── every3month.php
+    │
+    └───┬ system/
+        └──── Des fichies de config...
+    </p>
+</body>
+</html>

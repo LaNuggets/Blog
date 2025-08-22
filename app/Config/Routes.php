@@ -12,3 +12,4 @@ $routes->get('/posts', 'PostController::index');
 $routes->post('/comment/save', 'CommentController::save');
 $routes->get('/info', 'Home::info');
 $routes->get('/blog', 'Home::blog');
+$routes->get('/tech', 'Home::tech');

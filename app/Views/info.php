@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="<?= base_url('css/style.css') ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Info</title>
 </head>
 <body>
     <div class="header">
@@ -34,8 +34,8 @@
 
         <p>Sur les images ci-dessous vous pouvez voir l'open space dans le quelle j'ai pu travailler.</p>
         <div class="img_pres">
-            <img src="images/bureau_recto.png" alt="Mon bureau vu de face">
-            <img src="images/bureau_verso.png" alt="Mon bureau vu de dos">
+            <img src="images/bureau_recto.png" alt="Mon bureau vu de face" width="500" height="500">
+            <img src="images/bureau_verso.png" alt="Mon bureau vu de dos" width="500" height="500">
         </div>
 
         <h2>Mes missions ?</h2>
@@ -67,6 +67,10 @@
     </br>
         - GEDEON qui permet de recenser des non conformités aux procédures qualité</br>
         </p>
+
+    <p>Pour plus de détaille téchnique c'est ici !</p>
+    <a href="<?= base_url('/tech') ?>" class="btn-posts">Expliquation Téchnique</a>
+
     </main>
     <hr>
     <div class="footer">
