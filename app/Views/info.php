@@ -12,6 +12,7 @@
         <div class="nav-links">
             <a href="<?= base_url('/blog') ?>" class="btn-posts">Blog</a>
             <a href="<?= base_url('/posts') ?>" class="btn-posts">Postes</a>
+            <a href="<?= base_url('/tech') ?>" class="btn-posts">Expliquation Technique</a>
         </div>
     </div>
     <hr>
@@ -19,7 +20,7 @@
         <div class="main-header">
             <h1>IRS 2 - Nantes</h1>
         </div>
-        <p>L'Institut de Recherche en Santé 2 - INSERM, C'est la où j'ai fait mon stage pendant 2 mois</p>
+        <p>L'Institut de Recherche en Santé 2 - INSERM UMR 1246-SPHERE situé au 22 boulevard Bénoni Goullin - 44200 Nantes , C'est la où j'ai fait mon stage pendant 2 mois</p>
 
         <p>L'objectif de l'IRS 2 c'est de chercher et développer des méthodes qui puissent être utilisé dans des cas clinique ou épidémiologiques. L'INSERM de Nantes est spécialisé dans la biostatistique.
             Pour une meilleure organisation de leur taches l'unité de Nantes a développé en interne depuis plusieurs années, grâce à des stagiaires, une plateforme web.
@@ -70,7 +71,7 @@
 </br>
 </br>
     <p>Pour plus de détaille téchnique c'est ici !</p>
-    <a href="<?= base_url('/tech') ?>" class="btn-posts">Expliquation Téchnique</a>
+    <a href="<?= base_url('/tech') ?>" class="btn-posts">Expliquation Technique</a>
 
     </main>
     <hr>

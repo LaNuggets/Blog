@@ -23,6 +23,7 @@ $formatter = new \IntlDateFormatter(
         <div class="nav-links">
         <a href="<?= base_url('/blog') ?>" class="btn-posts">Blog</a>
         <a href="<?= base_url('/info') ?>" class="btn-posts">Entreprise</a>
+        <a href="<?= base_url('/tech') ?>" class="btn-posts">Expliquation Technique</a>
         </div>
     </div>
     <hr>
