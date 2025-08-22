@@ -11,8 +11,6 @@
     <div class="header">
         <div class="nav-links">
             <a href="<?= base_url('/blog') ?>" class="btn-posts">Blog</a>
-            <a href="<?= base_url('/info') ?>" class="btn-posts">Entreprise</a>
-            <a href="<?= base_url('/posts') ?>" class="btn-posts">Postes</a>
         </div>
     </div>
     <hr>
