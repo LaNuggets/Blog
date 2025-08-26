@@ -13,3 +13,4 @@ $routes->post('/comment/save', 'CommentController::save');
 $routes->get('/info', 'Home::info');
 $routes->get('/blog', 'Home::blog');
 $routes->get('/tech', 'Home::tech');
+$routes->get('/exp', 'Home::exp');

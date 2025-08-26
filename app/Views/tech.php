@@ -16,12 +16,13 @@
             <a href="<?= base_url('/blog') ?>" class="btn-posts">Blog</a>
             <a href="<?= base_url('/info') ?>" class="btn-posts">Entreprise</a>
             <a href="<?= base_url('/posts') ?>" class="btn-posts">Postes</a>
+            <a href="<?= base_url('/exp') ?>" class="btn-posts">Retour d'experience</a>
         </div>
     </div>
     <hr>
     <main style="padding:20px;">
         <div class="main-header">
-            <h1>Explication</h1>
+            <h1>Explication technique</h1>
         </div>
         <p>
         Comme dit plus avant, ce site avait déjà été commencé par d'ancien stagiaires.<br>
@@ -36,7 +37,9 @@
         C'est d'ailleurs le seul problème vraiment impactant que j'ai trouvé mais il est de taille.<br>
         </br>
         Pour une vue plus approfondit voici a quoi ressemble l'arborescence des fichiers (je n'ai mis ici que les fichiers principaux):<br>
+        </p>
         </br>
+        <pre>
         ┬ Projet<br>
         ├───┬ applications/<br>
         │   ├──── config/<br>
@@ -57,7 +60,7 @@
         │<br>
         └───┬ system/<br>
             └──── Des fichies de config...<br>
-        </p>
+        </pre>
     </main>
     <hr>
     <div class="footer">

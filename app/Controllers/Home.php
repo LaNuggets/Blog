@@ -23,4 +23,9 @@ class Home extends BaseController
     {
         return view('tech');
     }
+
+    public function exp(): string
+    {
+        return view('exp');
+    }
 }

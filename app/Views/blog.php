@@ -17,6 +17,7 @@
             <a href="<?= base_url('/info') ?>" class="btn-posts">Entreprise</a>
             <a href="<?= base_url('/posts') ?>" class="btn-posts">Postes</a>
             <a href="<?= base_url('/tech') ?>" class="btn-posts">Expliquation Technique</a>
+            <a href="<?= base_url('/exp') ?>" class="btn-posts">Retour d'experience</a>
         </div>
     </div>
     <hr>
