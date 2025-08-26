@@ -5,6 +5,9 @@
     <link rel="stylesheet" href="<?= base_url('css/style.css') ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <title>Explication</title>
 </head>
 <body>
@@ -21,8 +24,8 @@
             <h1>Explication</h1>
         </div>
         <p>
-        Comme dit plus haut ce site avait déjà été commencé par d'ancien stagiaires.<br>
-        Les technos qui ont été choisis sont : PHP avec le framework Codeigniter 3, JavaScript avec materialize js, html, css.<br>
+        Comme dit plus avant, ce site avait déjà été commencé par d'ancien stagiaires.<br>
+        Les technos qui ont été choisis sont : PHP avec le framework Codeigniter 3, JavaScript avec materialize js, HTML, CSS.<br>
         En ce qui me concerne je connaissais évidemment déjà tous c'est langage mais pas les frameworks.<br>
         Après utilisation je peux dire que codeigniter à des avantages et inconvénients.<br>
         Il est très léger (même pas 50 Mo), comme beaucoup il utilise le model MVC(Model, Vue, controlleur).<br>
