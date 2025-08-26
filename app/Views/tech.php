@@ -40,26 +40,26 @@
         </p>
         </br>
         <pre>
-        ┬ Projet<br>
-        ├───┬ applications/<br>
-        │   ├──── config/<br>
-        │   ├──── controllers/<br>
-        │   ├──── database/<br>
-        │   ├──── heplers/<br>
-        │   ├──── models/<br>
-        │   ├──── logs/<br>
-        │   ├──── viwes/<br>
-        │   └──── ...<br>
-        ├───┬ assets/<br>
-        │   ├──── css/<br>
-        │   ├──── js/<br>
-        │   └──── ...<br>
-        ├───┬ cron/<br>
-        │   ├──── everyDay.php<br>
-        │   └──── every3month.php<br>
-        │<br>
-        └───┬ system/<br>
-            └──── Des fichies de config...<br>
+        ┬ Projet
+        ├───┬ applications/
+        │   ├──── config/
+        │   ├──── controllers/
+        │   ├──── database/
+        │   ├──── heplers/
+        │   ├──── models/
+        │   ├──── logs/
+        │   ├──── viwes/
+        │   └──── ...
+        ├───┬ assets/
+        │   ├──── css/
+        │   ├──── js/
+        │   └──── ...
+        ├───┬ cron/
+        │   ├──── everyDay.php
+        │   └──── every3month.php
+        │
+        └───┬ system/
+            └──── Des fichies de config...
         </pre>
     </main>
     <hr>

@@ -13,7 +13,7 @@
 <body>
     <div class="header">
         <div class="nav-links">
-            <a href="<?= base_url('/blog') ?>" class="btn-posts">blog</a>
+            <a href="<?= base_url('/blog') ?>" class="btn-posts">Blog</a>
             <a href="<?= base_url('/info') ?>" class="btn-posts">Entreprise</a>
             <a href="<?= base_url('/posts') ?>" class="btn-posts">Postes</a>
             <a href="<?= base_url('/tech') ?>" class="btn-posts">Expliquation Technique</a>
@@ -33,7 +33,7 @@
             En revanche l'autonomie m'a apporté des choses ;<br>
             une grande autonomie, avancé à mon rythme, une amélioration sur ma réflexion (quand on est seul sur un problème il faut essayer d'apporter cet autre point de vue, réfléchir différemment), ça permet aussi de toucher à tous dans le projet, une meilleure utilisation des ressources qu'offre internet.</br>
 
-            J'ai pu y apprendre plein de nouvelles choses en développement fullstack et particulièrement sur les technologies que j'ai utilisées,
+            J'ai pu y apprendre plein de nouvelles choses en développement fullstack et particulièrement sur les technologies que j'ai utilisées.
         </p>
 
         <h2>Ma grosse difficulté</h2>
@@ -46,7 +46,8 @@
             Avec du recul les raisons de l'absence de cette étape de réflexion viennes de 2 facteurs principaux ; le temps que j'avais pour faire la tache donnée et mon envie de coder.<br>
             S'il y'a bien un point sur lequel j'ai, à mon sens, le plus progressé durant ce stage c'est celui-ci, prendre le temps de la réflexion !</br>
 
-            Et maintenant à chaque fois que je vais sur un site web et que quelque chose n'est pas très bien fait je ne peux pas m'empêcher de penser à pourquoi ça fait ça et comment le résoudre. Déformation professionnelle.<br>
+            Et maintenant à chaque fois que je vais sur un site web et que quelque chose n'est pas très bien fait je ne peux pas m'empêcher de penser à pourquoi ça fait ça et comment le résoudre.<br>
+            Déformation professionnelle.<br>
         </p>
 
 

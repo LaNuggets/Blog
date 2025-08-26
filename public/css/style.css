@@ -176,6 +176,10 @@ hr {
     padding-left: 15px;
 }
 
+p {
+    line-height: 1.6;
+}
+
 button,.btn-posts  {
     background-color: #333;
     color: #fff;
