@@ -49,12 +49,8 @@
                 Le <strong>Contrôleur</strong> fait le lien entre les deux. Par exemple, si l'on veut afficher tous les employés de l'entreprise, le Contrôleur va appeler le Modèle pour récupérer les informations, puis les envoyer à la Vue pour qu’elle les affiche.  
                 Et voilà, maintenant vous êtes incollable sur le MVC !
             </p>
-
-        <h2>Installation et mise en service</h2>
-            <p>
-                Je l'ai utilisé pour faire mon blog et je m'attendais à mettre plusieurs minutes, voir même heures pour l'installer et commencé à codé. Que nenni ! Il suffit de cloner le repo github supprimer 2 fichiers et c'est partie.<br>
-            </p>
         </br>
+        
             <h2>Arborescence des fichiers</h2>
             <p>Voici à quoi ressemble l'arborescence des principaux fichiers :</p>
         </br>

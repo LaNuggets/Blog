@@ -25,7 +25,14 @@
         <div class="main-header">
             <h1>Mon blog</h1>
         </div>
-        <h3>Pour validé ma 2ème année de bachelor informatique à Ynov j'ai du faire un stage et ce blog en est la retranscription !</h3>
+        <h3>
+            Pour valider ma 2ème année de Bachelor Informatique à Ynov, j'ai réalisé un stage et ce blog en est la retranscription.  
+        </h3>
+    <p>
+        Vous y découvrirez : l'entreprise dans laquelle j'ai travaillé, mes missions, mon ressenti et mon retour d'expérience sur cette aventure.  
+        N'hésitez pas à explorer les différentes pages pour en savoir plus et suivre mon parcours !
+    </p>
+    <a href="<?= base_url('/info') ?>" class="btn-posts">Découvrir l'entreprise</a>
     </main>
     <hr>
     <div class="footer">

@@ -59,7 +59,7 @@
         </p>
 
         <p>
-            Aujourd'hui, chaque fois que je navigue sur un site web et que quelque chose n'est pas très bien fait, je me demande pourquoi et comment le résoudre… Déformation professionnelle !
+            Aujourd'hui, chaque fois que je vais sur un site web et que quelque chose n'est pas très bien fait, je me demande pourquoi et comment le résoudre… Déformation professionnelle !
         </p>
 
         <h2>Conclusion</h2>

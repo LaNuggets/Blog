@@ -22,8 +22,35 @@
             <h1>Bienvenue chez Aurélien Duagst !</h1>
         </div>
         <h3>Moi c'est <span style="color:#ff5555;">aurélien </span> Dugast mais mon pseudo c'est <span style="color:#ff5555;">LaNuggets</span>, j'ai 20 ans j'adore la nature, les jeux vidéo, l'informatique et transmettre des connaissances !</br>
-            Je suis en jeune développeur informatique (je vais faire ma rentrer en 3ème année) passioné par le back-end.</br>
+            Je suis en jeune développeur informatique passioné par le back-end.</br>
         </h3>
+
+        <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-icon">💻</div>
+            <h4>Stage en dev web fullstack</h4>
+            <p>Stage de 2 mois à l'IRS 2 à Nantes. Développeur web fullstack, amélioration, maintenance et mise en production d'une plateforme web interne.</p>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-icon">🎓</div>
+            <h4>Formation en informatique</h4>
+            <p>Bachelor Informatique à Ynov, spécialisation développement.</p>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-icon">🤝</div>
+            <h4>Service civique à la Maison des Jeux</h4>
+            <p>Animation tout age et menuiserie</p>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-icon">📘</div>
+            <h4>Baccalauréat</h4>
+            <p>Bac STI2D option SIN avec mention assez bien.</p>
+        </div>
+        </div>
+
     </main>
     <hr>
     <div class="footer">
