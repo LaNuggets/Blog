@@ -29,7 +29,7 @@ class CommentController extends BaseController
             'post_id'      => $this->request->getPost('post_id'),
             'author'       => $this->request->getPost('author'),
             'content'      => $this->request->getPost('content'),
-            'comment_date' => date('Y-m-d'),
+            'comment_date' => date('Y-m-d H:i'),
         ];
 
         $commentModel->save($data);

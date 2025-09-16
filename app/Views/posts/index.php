@@ -58,7 +58,7 @@ $formatter = new \IntlDateFormatter(
                 Ajouter un commentaire
             </button>
 
-            <!-- Formulaire de commentaire -->
+            <!-- Create coms -->
             <div id="comment-form-<?= $post['id'] ?>" style="display:none; margin-top:10px;">
                 <form action="<?= base_url('/comment/save') ?>" method="post">
                     <?= csrf_field() ?>
@@ -74,14 +74,14 @@ $formatter = new \IntlDateFormatter(
                 </form>
             </div>
 
-            <!-- Commentaires -->
+            <!-- display coms -->
             <div class="comments">
                 <h4>Commentaires :</h4>
                 <?php if (!empty($post['comments'])): ?>
                     <?php foreach ($post['comments'] as $comment): ?>
                         <div>
                             <strong><?= esc($comment['author']) ?></strong>
-                            <em>(<?= esc($comment['comment_date']) ?>)</em><br>
+                            <em>(<?= date('d/m/Y H:i', strtotime($comment['comment_date'])) ?>)</em><br>
                             <?= nl2br(esc($comment['content'])) ?>
                             <hr style="border: 0; border-top: 1px solid #333;">
                         </div>
