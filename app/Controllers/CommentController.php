@@ -6,6 +6,14 @@ use App\Models\CommentModel;
 
 class CommentController extends BaseController
 {
+    public function index()
+    {
+        $comments = $this->commentModel->findAll();
+        return view('comments/delete', [
+            'comments' => $comments
+        ]);
+    }
+
     public function save()
     {
         $commentModel = new CommentModel();
@@ -20,5 +28,24 @@ class CommentController extends BaseController
         $commentModel->save($data);
 
         return redirect()->back()->with('success', 'Commentaire ajouté !');
+    }
+
+    public function delete($id = null)
+    {
+        if ($id === null) {
+            return redirect()->back()->with('error', 'Aucun ID de commentaire fourni.');
+        }
+
+        $comment = $this->commentModel->find($id);
+
+        if (!$comment) {
+            return redirect()->back()->with('error', 'Commentaire introuvable.');
+        }
+
+        if ($this->commentModel->delete($id)) {
+            return redirect()->back()->with('success', 'Commentaire supprimé avec succès.');
+        } else {
+            return redirect()->back()->with('error', 'Erreur lors de la suppression.');
+        }
     }
 }

@@ -24,6 +24,7 @@
         <div class="main-header">
             <h1>Retour d'experience</h1>
         </div>
+        <h2>Mon ressentis</h2>
         <p>
             Ce stage a été vraiment chouette, je suis content de ce que j'ai pu y apprendre et faire.<br>
             Au début je me suis senti un peu perdu dans la complexité du projet mais après 2 semaine passée je me sentais déjà assez à l'aise et j'étais plus efficace.</br>

@@ -35,13 +35,23 @@
 
         <p>L'ambiance été cool, j'étais dans un open space où nous étions rarement plus de cinq.<br>
             J'avais autour de moi des stagiaires doctorant et des doctorants depuis plus ou moins longtemps.<br>
-            Tout le monde est toujours très concentré sur son travail et personne ne parle, on entend seulement le bruit des touches de clavier (comme cher le médecin).</p>
+            Tout le monde est toujours très concentré sur son travail et personne ne parle, on entend seulement le bruit des touches de clavier (comme chez le médecin).</p>
 
         <p>Sur les images ci-dessous vous pouvez voir l'open space dans le quelle j'ai pu travailler.</p>
         <div class="img_pres">
             <img src="images/bureau_recto.png" alt="Mon bureau vu de face" width="600" height="500">
             <img src="images/bureau_verso.png" alt="Mon bureau vu de dos" width="600" height="500">
         </div>
+
+        <h2>Organisation</h2>
+        <p>
+            Durant ce stage je me suis retrouvé en totale autonomie, il n'y avait aucune personne qui faisait du développement ou même de l'informatique.
+            Une fois par semaine je faisais un point avec Jean-Benoît (mon maitre de stage) pour que l'on voit ensemble mes avancements et futures taches à faire.
+            C'est quelqu'un de très occupé et je n'osais pas trop le déranger (sauf cas urgent). Je comminquais avec lui uniquement par mail où l'hors d'entre vu dans les couloirs.
+            Durant c'est 2 mois j'ai pu participé à 2 reprise aux réunion d'équipe. 
+            Cela m'a permis d'expliquer aux usagers les différents ajouts que j'avais apporté au site et surtout j'ai pu leur demander comment ils aimeraient que les choses soit, s'ils avaient des choses à redire, à modifier...
+            L'expérience utilisateur (UX) est d'une importance capitale !
+        </p>
 
         <h2>Mes missions ?</h2>
         <p>Au début du stage j'ai fait un rendez-vous avec mon maitre de stage pour qu'il m'explique les taches que j'aurais à faire.
@@ -55,7 +65,7 @@
         - Modifier le fonctionnement du calcul du temps de travail des employés ainsi que l'affichage graphique et le rendre rétroactif.
     </br>
         D'autres petites taches ce sont rajouter ici et là mais le plus gros de mon travail se résume à ça.
-</br>
+    </br>
 
         <h2>C'est quoi ce site ?</h2>
         <p>Ce site est découpé en 6 outils bien distinct.</p>

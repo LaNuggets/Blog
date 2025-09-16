@@ -25,7 +25,7 @@
             <h1>Explication technique</h1>
         </div>
         <p>
-        Comme dit plus avant, ce site avait déjà été commencé par d'ancien stagiaires.<br>
+        Comme dit avant, ce site avait déjà été commencé par d'ancien stagiaires tous de 2ème année.<br>
         Les technos qui ont été choisis sont : PHP avec le framework Codeigniter 3, JavaScript avec materialize js, HTML, CSS.<br>
         En ce qui me concerne je connaissais évidemment déjà tous c'est langage mais pas les frameworks.<br>
         Après utilisation je peux dire que codeigniter à des avantages et inconvénients.<br>
