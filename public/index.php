@@ -57,3 +57,6 @@ $paths = new Paths();
 require $paths->systemDirectory . '/Boot.php';
 
 exit(Boot::bootWeb($paths));
+
+// Set time zone
+date_default_timezone_set('Europe/Paris');

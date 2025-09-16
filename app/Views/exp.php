@@ -24,13 +24,21 @@
         <div class="main-header">
             <h1>Retour d'experience</h1>
         </div>
-        <h2>Mon ressentis</h2>
+        <h2>Mon ressenti</h2>
         <p>
-            Ce stage a été vraiment chouette, je suis content de ce que j'ai pu y apprendre et faire.<br>
-            Au début je me suis senti un peu perdu dans la complexité du projet mais après 2 semaine passée je me sentais déjà assez à l'aise et j'étais plus efficace.</br>
+            Ce stage a été vraiment chouette. Je suis content de ce que j'ai pu y apprendre et accomplir.  
+            Au début, je me suis senti un peu perdu dans la complexité du projet, mais après deux semaines, je me sentais déjà plus à l'aise et plus efficace.
+        </p>
 
-            J'ai été en autonomie sur la totalité de mon stage, cela comporte évidemment des defaults mais aussi des atouts.<br>
-            Selon moi ce que la faite d'être en autonomie n'a pas pu m'apporter c'est le partage des connaissances, une autre vision des choses, ça implique de faire de choses qui ne nous plaise pas forcément (dans mon cas le front).<br>
+        <p>
+            J'ai été en totale autonomie pendant ce stage. Cela comporte évidemment des défauts, mais aussi de nombreux atouts.  
+            L'autonomie m'a permis de travailler à mon rythme, d'améliorer ma réflexion et de toucher à tous les aspects du projet.  
+            En revanche, elle m'a limité dans le partage des connaissances et dans la découverte d'autres manières de faire. Certaines tâches, comme le front, étaient moins plaisantes à réaliser.
+        </p>
+
+        <p>
+            J'ai été en autonomie sur la totalité de mon stage, cela comporte évidemment des défauts mais aussi des atouts.<br>
+            Selon moi ce que la faite d'être en autonomie n'a pas pu m'apporter c'est le partage des connaissances, une autre vision des choses, ça implique de faire de choses qui ne nous plaît pas forcément (dans mon cas le front).<br>
             En revanche l'autonomie m'a apporté des choses ;<br>
             une grande autonomie, avancé à mon rythme, une amélioration sur ma réflexion (quand on est seul sur un problème il faut essayer d'apporter cet autre point de vue, réfléchir différemment), ça permet aussi de toucher à tous dans le projet, une meilleure utilisation des ressources qu'offre internet.</br>
 
@@ -39,25 +47,27 @@
 
         <h2>Ma grosse difficulté</h2>
         <p>
-            Ma plus grosse difficulté ou plutôt mon plus gros problème lors de ce stage c'est que je ne prenais pas le temps.<br>
-            Dès que je devais faire une tache je me lançais dessus sans prendre le temps de voir la tache dans sa globalité.<br>
-            Ce fonctionnement était problématique car dans certain cas je n'avais pas prévu telle ou telle scénario ce qui pouvait impliquer de grands changements.<br>
-            Quand j'ai travaillé sur ma dernière taches (le questionnaire) j'ai cette fois si pris le temps, j'ai écrit mon raisonnement avant de la codé et en le relisant j'y ai trouvé des problèmes, des choses à améliorer, et des choses correctes. C'est sans aucun doute la taches que j'ai faite avec le plus de logique.<br>
-            Quand je parle de "réfléchir sur la taches" je veux dire ; Définir le problème, les solutions possibles (il n'y jamais une seule manière de résoudre un problème en informatique), la plus rapides à mettre en place, la plus optimisé (je parle ici au niveau de la complexité du code), la plus évoluable...<br>
-            Avec du recul les raisons de l'absence de cette étape de réflexion viennes de 2 facteurs principaux ; le temps que j'avais pour faire la tache donnée et mon envie de coder.<br>
-            S'il y'a bien un point sur lequel j'ai, à mon sens, le plus progressé durant ce stage c'est celui-ci, prendre le temps de la réflexion !</br>
-
-            Et maintenant à chaque fois que je vais sur un site web et que quelque chose n'est pas très bien fait je ne peux pas m'empêcher de penser à pourquoi ça fait ça et comment le résoudre.<br>
-            Déformation professionnelle.<br>
+            Ma principale difficulté a été de ne pas prendre assez de temps pour réfléchir avant de coder.  
+            Je me lançais directement sur une tâche sans envisager le problème dans sa globalité, ce qui pouvait créer des complications imprévues.  
+            Sur ma dernière tâche (le questionnaire), j'ai cette fois pris le temps de noter mon raisonnement avant de coder. J'y ai repéré des problèmes, des améliorations possibles et des points corrects. Cette tâche est sans doute celle que j'ai réalisée avec le plus de logique.
         </p>
 
+        <p>
+            Par "réfléchir sur une tâche", j'entends : définir le problème, envisager toutes les solutions possibles (il n'y a jamais une seule manière de résoudre un problème en informatique), choisir la solution la plus rapide à mettre en place, la plus optimiséeou bien encore la plus évolutive.  
+            Avec du recul, l'absence de cette étape de réflexion venait surtout du temps limité et de mon envie de coder.  
+            C'est sur ce point que j'ai le plus progressé durant le stage : prendre le temps de la réflexion !
+        </p>
+
+        <p>
+            Aujourd'hui, chaque fois que je navigue sur un site web et que quelque chose n'est pas très bien fait, je me demande pourquoi et comment le résoudre… Déformation professionnelle !
+        </p>
 
         <h2>Conclusion</h2>
         <p>
-            Ce stage fut très enrichissant pour moi autant sur le point de vue technique que professionnelle.<br>
+            Ce stage fut très enrichissant pour moi tant sur le point de vue technique que professionnelle.<br>
             Je n'ai aucun regret à l'avoir fait ici.</br>
 
-            D'un autre coté cela m'a aussi conforté dans l'idée de ne pas faire de développement web fullstack dans le futur.<br>
+            D'un autre coté cela m'a aussi confirmé que je ne souhaite pas me spécialiser dans le développement web fullstack.<br>
             Ce qui m'intéresse le plus dans le développement c'est l'algorithmique, hors en web il y en a très peu du moins dans ce que j'ai pu y voir ici.<br>
         </p>
     </main>

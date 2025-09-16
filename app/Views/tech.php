@@ -24,20 +24,39 @@
         <div class="main-header">
             <h1>Explication technique</h1>
         </div>
-        <p>
-        Comme dit avant, ce site avait déjà été commencé par d'ancien stagiaires tous de 2ème année.<br>
-        Les technos qui ont été choisis sont : PHP avec le framework Codeigniter 3, JavaScript avec materialize js, HTML, CSS.<br>
-        En ce qui me concerne je connaissais évidemment déjà tous c'est langage mais pas les frameworks.<br>
-        Après utilisation je peux dire que codeigniter à des avantages et inconvénients.<br>
-        Il est très léger (même pas 50 Mo), comme beaucoup il utilise le model MVC(Model, Vue, controlleur).<br>
-        Beaucoup de choses sont faite de manière automatique comme les routes (pas besoin de les créer manuellement dans un quelconque fichier, il suffit de créer une fonction dans un controller et bim la route est opérationnelle), il est d'une facilité d'utilisation remarquable, ça mise en service est d'une rapidité qui m'a beaucoup épaté.<br>
-        Je l'ai utilisé pour faire mon blog et je m'attendais à mettre plusieurs minutes, voir même heures pour l'installer et commencé à codé. Que nenni ! Il suffit de cloner le repo github supprimer 2 fichiers et c'est partie.<br>
-        Cependant ce framework a aussi des default.<br>
-        Il n'y a aucune commande pour la création d'un MVC, tous doivent être créé manuellement ce qui est parfois fatiguant.<br>
-        C'est d'ailleurs le seul problème vraiment impactant que j'ai trouvé mais il est de taille.<br>
+        <h2>Technologies utilisées</h2>
+            <p>
+                Comme dit avant, ce site avait déjà été commencé par d'ancien stagiaires tous de 2ème année.<br>
+                Les technos qui ont été choisis sont : PHP avec le framework Codeigniter 3, JavaScript avec materialize js, HTML, CSS.<br>
+                En ce qui me concerne je connaissais évidemment déjà tous ces langages mais pas les frameworks.<br>
+            </p>
         </br>
-        Pour une vue plus approfondit voici a quoi ressemble l'arborescence des fichiers (je n'ai mis ici que les fichiers principaux):<br>
-        </p>
+
+        <h2>CodeIgniter : avantages et inconvénients</h2>
+            <p>
+                Il est très léger (même pas 50 Mo), comme beaucoup il utilise le model MVC(Model, Vue, contrôleur).<br>
+                Beaucoup de choses sont automatisées, comme les routes : il suffit de créer une fonction dans un contrôleur et hop, la route est opérationnelle. il est d'une facilité d'utilisation remarquable, ça mise en service est d'une rapidité qui m'a beaucoup épaté.<br>
+                Cependant ce framework a aussi des défauts.<br>
+                Il n'y a aucune commande pour la création d'un MVC, tous doivent être créé manuellement ce qui est parfois fatiguant.<br>
+                C'est d'ailleurs le seul problème vraiment impactant que j'ai trouvé mais il est de taille.<br>    
+            </p>
+        </br>
+        <h2>Le MVC</h2>
+            <p>
+                En développement web, on parle souvent du MVC : Modèle, Vue et Contrôleur.  
+                Le <strong>Modèle</strong> contient les fonctions qui interagissent avec la base de données : récupérer des informations, les modifier ou les supprimer. On appelle cela un CRUD (Create, Read, Update, Delete).  
+                La <strong>Vue</strong> correspond à ce que voit l'utilisateur, c'est-à-dire la page web. C'est ici que l'on met en page, change les couleurs, la disposition et affiche les données.  
+                Le <strong>Contrôleur</strong> fait le lien entre les deux. Par exemple, si l'on veut afficher tous les employés de l'entreprise, le Contrôleur va appeler le Modèle pour récupérer les informations, puis les envoyer à la Vue pour qu’elle les affiche.  
+                Et voilà, maintenant vous êtes incollable sur le MVC !
+            </p>
+
+        <h2>Installation et mise en service</h2>
+            <p>
+                Je l'ai utilisé pour faire mon blog et je m'attendais à mettre plusieurs minutes, voir même heures pour l'installer et commencé à codé. Que nenni ! Il suffit de cloner le repo github supprimer 2 fichiers et c'est partie.<br>
+            </p>
+        </br>
+            <h2>Arborescence des fichiers</h2>
+            <p>Voici à quoi ressemble l'arborescence des principaux fichiers :</p>
         </br>
         <pre>
         ┬ Projet
@@ -59,7 +78,7 @@
         │   └──── every3month.php
         │
         └───┬ system/
-            └──── Des fichies de config...
+            └──── Des fichiers de config...
         </pre>
     </main>
     <hr>

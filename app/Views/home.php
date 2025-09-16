@@ -19,9 +19,9 @@
     <hr>
     <main style="padding:20px;">
         <div class="main-header">
-            <h1>Bienvenue chez moi !</h1>
+            <h1>Bienvenue chez Aurélien Duagst !</h1>
         </div>
-        <h3>Moi c'est aurélien Dugast, j'ai 20 ans j'adore la nature, les jeux vidéo, l'informatique et transmettre des connaissances !</br>
+        <h3>Moi c'est <span style="color:#ff5555;">aurélien </span> Dugast mais mon pseudo c'est <span style="color:#ff5555;">LaNuggets</span>, j'ai 20 ans j'adore la nature, les jeux vidéo, l'informatique et transmettre des connaissances !</br>
             Je suis en jeune développeur informatique (je vais faire ma rentrer en 3ème année) passioné par le back-end.</br>
         </h3>
     </main>

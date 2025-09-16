@@ -26,15 +26,15 @@
         </div>
         <p>L'Institut de Recherche en Santé 2 - INSERM UMR 1246-SPHERE situé au 22 boulevard Bénoni Goullin - 44200 Nantes , C'est la où j'ai fait mon stage pendant 2 mois</p>
 
-        <p>L'objectif de l'IRS 2 c'est de chercher et développer des méthodes qui puissent être utilisé dans des cas clinique ou épidémiologiques. L'INSERM de Nantes est spécialisé dans la biostatistique.
-            Pour une meilleure organisation de leur taches l'unité de Nantes a développé en interne depuis plusieurs années, grâce à des stagiaires, une plateforme web.
-            C'est sur cette dernière que j'aurais la charge d'apporter des améliorations.
+        <p>L'objectif de l'IRS 2 c'est de chercher et développer des méthodes qui puissent être utilisé dans des cas clinique ou épidémiologiques. L'INSERM de Nantes est spécialisé dans la biostatistique.<br>
+            Pour une meilleure organisation de leur taches l'unité de Nantes a développé en interne depuis plusieurs années, grâce à des stagiaires, une plateforme web.<br>
+            C'est sur cette dernière que j'avais pour mission d'apporter des améliorations.<br>
         </p>
 
         <h2>Mon environnement de travail</h2>
 
-        <p>L'ambiance été cool, j'étais dans un open space où nous étions rarement plus de cinq.<br>
-            J'avais autour de moi des stagiaires doctorant et des doctorants depuis plus ou moins longtemps.<br>
+        <p>L'ambiance étais cool, j'étais dans un open space où nous étions rarement plus de cinq.<br>
+            J'avais autour de moi des stagiaires doctorant et des doctorants expérimentés.<br>
             Tout le monde est toujours très concentré sur son travail et personne ne parle, on entend seulement le bruit des touches de clavier (comme chez le médecin).</p>
 
         <p>Sur les images ci-dessous vous pouvez voir l'open space dans le quelle j'ai pu travailler.</p>
@@ -45,16 +45,17 @@
 
         <h2>Organisation</h2>
         <p>
-            Durant ce stage je me suis retrouvé en totale autonomie, il n'y avait aucune personne qui faisait du développement ou même de l'informatique.
-            Une fois par semaine je faisais un point avec Jean-Benoît (mon maitre de stage) pour que l'on voit ensemble mes avancements et futures taches à faire.
-            C'est quelqu'un de très occupé et je n'osais pas trop le déranger (sauf cas urgent). Je comminquais avec lui uniquement par mail où l'hors d'entre vu dans les couloirs.
-            Durant c'est 2 mois j'ai pu participé à 2 reprise aux réunion d'équipe. 
-            Cela m'a permis d'expliquer aux usagers les différents ajouts que j'avais apporté au site et surtout j'ai pu leur demander comment ils aimeraient que les choses soit, s'ils avaient des choses à redire, à modifier...
-            L'expérience utilisateur (UX) est d'une importance capitale !
+            Durant ce stage je me suis retrouvé en totale autonomie, il n'y avait aucune personne qui faisait du développement ou même de l'informatique.<br>
+            Une fois par semaine je faisais un point avec Jean-Benoît (mon maitre de stage) pour que l'on voit ensemble mes avancements et futures taches à faire.<br>
+            C'est quelqu'un de très occupé et je n'osais pas trop le déranger (sauf cas urgent). Je communiquais avec lui uniquement par mail où lors d'entrevues dans les couloirs.<br>
+
+            Durant c'est 2 mois j'ai pu participé à 2 reprise aux réunion d'équipe.<br>
+            Cela m'a permis d'expliquer aux usagers les différents ajouts que j'avais apporté au site et surtout j'ai pu leur demander comment ils aimeraient que les choses soit, s'ils avaient des choses à redire, à modifier...<br>
+            L'expérience utilisateur (UX) est d'une importance capitale dans le métier de développeur web !<br>
         </p>
 
         <h2>Mes missions ?</h2>
-        <p>Au début du stage j'ai fait un rendez-vous avec mon maitre de stage pour qu'il m'explique les taches que j'aurais à faire.
+        <p>Au début du stage j'ai fait un rendez-vous avec mon maitre de stage pour qu'il m'explique les tâches que j'aurais à faire.
     </br>
         3 missions principale sont ressorties :
     </br>
@@ -84,7 +85,7 @@
         </p>
 </br>
 </br>
-    <p>Pour plus de détaille téchnique c'est ici !</p>
+    <p>Pour plus de détails téchniques c'est ici !</p>
     <a href="<?= base_url('/tech') ?>" class="btn-posts">Expliquation Technique</a>
 
     </main>
