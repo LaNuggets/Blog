@@ -6,6 +6,13 @@ use App\Models\CommentModel;
 
 class CommentController extends BaseController
 {
+    protected $commentModel;
+
+    public function __construct()
+    {
+        $this->commentModel = new CommentModel();
+    }
+
     public function index()
     {
         $comments = $this->commentModel->findAll();
