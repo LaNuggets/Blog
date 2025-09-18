@@ -63,7 +63,7 @@ class PostController extends BaseController
             throw new \CodeIgniter\Exceptions\PageNotFoundException("Post non trouvé");
         }
 
-        return view('posts/edit', ['post' => $post]);
+        return view('posts/update', ['post' => $post]);
     }
 
     public function update($id)
