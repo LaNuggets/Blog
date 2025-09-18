@@ -11,6 +11,10 @@ $routes->get('/', 'Home::index');
 $routes->get('/post/create', 'PostController::create');
 $routes->post('/post/save', 'PostController::save');
 $routes->get('/posts', 'PostController::index');
+// update
+$routes->get('/post/m/(:num)', 'PostController::edit/$1');
+$routes->post('/post/update/(:num)', 'PostController::update/$1');
+
 
 //Pages
 $routes->get('/info', 'Home::info');

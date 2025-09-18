@@ -53,4 +53,38 @@ class PostController extends BaseController
 
         return redirect()->to('/posts')->with('success', 'Post créé avec succès');
     }
+
+    public function edit($id)
+    {
+        $postModel = new PostModel();
+        $post = $postModel->find($id);
+
+        if (!$post) {
+            throw new \CodeIgniter\Exceptions\PageNotFoundException("Post non trouvé");
+        }
+
+        return view('posts/edit', ['post' => $post]);
+    }
+
+    public function update($id)
+    {
+        $postModel = new PostModel();
+
+        $data = [
+            'title'   => $this->request->getPost('title'),
+            'content' => $this->request->getPost('content'),
+        ];
+
+        $img = $this->request->getFile('image');
+        if ($img && $img->isValid() && !$img->hasMoved()) {
+            $newName = $img->getRandomName();
+            $img->move(FCPATH . 'uploads', $newName);
+            $data['image'] = $newName;
+        }
+
+        $postModel->update($id, $data);
+
+        return redirect()->to('/blog')->with('message', 'Post modifié avec succès');
+    }
+
 }
