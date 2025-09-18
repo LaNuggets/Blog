@@ -20,6 +20,14 @@
         <label for="content">Contenu</label>
         <textarea name="content" rows="5" required><?= esc($post['content']) ?></textarea>
 
+        <label for="publication_date">Date de publication</label>
+        <input 
+            type="datetime-local" 
+            name="publication_date" 
+            value="<?= date('Y-m-d\TH:i', strtotime($post['publication_date'])) ?>"
+            required
+        >
+
         <?php if (!empty($post['image'])): ?>
             <p>Image actuelle :</p>
             <img src="<?= base_url('uploads/' . $post['image']) ?>" width="200">

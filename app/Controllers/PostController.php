@@ -73,6 +73,7 @@ class PostController extends BaseController
         $data = [
             'title'   => $this->request->getPost('title'),
             'content' => $this->request->getPost('content'),
+            'publication_date' => $this->request->getPost('publication_date'),
         ];
 
         $img = $this->request->getFile('image');
