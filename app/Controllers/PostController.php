@@ -9,7 +9,7 @@ class PostController extends BaseController
     {
         $postModel = new \App\Models\PostModel();
         $commentModel = new \App\Models\CommentModel();
-        $posts = $postModel->findAll();
+        $posts = $postModel->getAllPosts();
 
         foreach($posts as &$post){
             $post['comments'] = $commentModel->getCommentsByPostId($post['id']);

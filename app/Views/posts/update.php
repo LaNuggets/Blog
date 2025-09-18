@@ -22,9 +22,9 @@
 
         <label for="publication_date">Date de publication</label>
         <input 
-            type="datetime-local" 
+            type="date" 
             name="publication_date" 
-            value="<?= date('Y-m-d\TH:i', strtotime($post['publication_date'])) ?>"
+            value="<?= date('Y-m-d', strtotime($post['publication_date'])) ?>"
             required
         >
 
