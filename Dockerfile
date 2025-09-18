@@ -1,11 +1,8 @@
 FROM php:8.3-apache
 
-RUN php spark cache:clear
-
 RUN apt update && apt install -y \
     zip unzip git libicu-dev libonig-dev libpq-dev \
     && docker-php-ext-install mysqli pdo pdo_mysql intl mbstring pdo_pgsql pgsql
-
     
 RUN a2enmod rewrite
 
@@ -21,6 +18,8 @@ RUN ls -la && cat composer.json
 RUN usermod -u 1000 www-data && groupmod -g 1000 www-data
 
 RUN composer install --no-dev --no-interaction --prefer-dist --ignore-platform-reqs
+
+RUN php spark cache:clear
 
 RUN chown -R www-data:www-data /var/www/html && chmod -R 755 /var/www/html
 RUN chown -R www-data:www-data /var/www/html/writable && \
