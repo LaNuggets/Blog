@@ -12,7 +12,7 @@ class PostModel extends Model
     
     public function getAllPosts()
     {
-        return $this->findAll();
+        return $this->orderBy('publication_date', 'ASC')->findAll();
     }
 }
 
