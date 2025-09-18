@@ -22,6 +22,9 @@ RUN usermod -u 1000 www-data && groupmod -g 1000 www-data
 
 RUN composer install --no-dev --no-interaction --prefer-dist --ignore-platform-reqs
 
+# delete toolbar
+RUN sed -i "s/public bool \$enabled = true;/public bool \$enabled = false;/" app/Config/Toolbar.php
+
 RUN php spark cache:clear
 
 RUN chown -R www-data:www-data /var/www/html && chmod -R 755 /var/www/html
