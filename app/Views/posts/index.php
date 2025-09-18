@@ -49,7 +49,8 @@ $formatter = new \IntlDateFormatter(
 
         <?php if ($post['image']): ?>
             <div class="image-wrapper">
-                <img src="<?= base_url('uploads/' . $post['image']) ?>">
+                <!-- <img src="<?= base_url('uploads/' . $post['image']) ?>"> -->
+                 <img src="<?= base_url('uploads/' . $post['image']) ?>" onclick="openModal(this.src)">
             </div>
         <?php endif; ?>
 
@@ -109,5 +110,20 @@ $formatter = new \IntlDateFormatter(
         </div>
     </div>
 </main>
+<div id="imageModal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+<script>
+function openModal(imgSrc) {
+    document.getElementById("modalImage").src = imgSrc;
+    document.getElementById("imageModal").style.display = "block";
+}
+
+function closeModal() {
+    document.getElementById("imageModal").style.display = "none";
+}
+</script>
+
 </body>
 </html>
