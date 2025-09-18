@@ -50,7 +50,6 @@
                 Et voilà, maintenant vous êtes incollable sur le MVC !
             </p>
         </br>
-        
             <h2>Arborescence des fichiers</h2>
             <p>Voici à quoi ressemble l'arborescence des principaux fichiers :</p>
         </br>
@@ -76,6 +75,9 @@
         └───┬ system/
             └──── Des fichiers de config...
         </pre>
+        </br>
+        <p>Pour mon retour d'expérience c'est ici !</p>
+        <a href="<?= base_url('/exp') ?>" class="btn-posts">Mon ressenti</a>
     </main>
     <hr>
     <div class="footer">

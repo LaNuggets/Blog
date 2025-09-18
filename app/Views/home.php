@@ -21,11 +21,11 @@
         <div class="main-header">
             <h1>Bienvenue chez Aurélien Duagst !</h1>
         </div>
-        <h3>Moi c'est <span style="color:#ff5555;">aurélien Dugast</span> mais mon pseudo c'est <span style="color:#ff5555;">LaNuggets</span>, j'ai 20 ans j'adore la nature, les jeux vidéo, l'informatique et transmettre des connaissances !</br>
+        <h3>Moi c'est <span style="color:#ff5555;">Aurélien Dugast</span> mais mon pseudo c'est <span style="color:#ff5555;">LaNuggets</span>, j'ai 20 ans j'adore la nature, les jeux vidéo, l'informatique et transmettre des connaissances !</br>
             Je suis un jeune développeur informatique passioné par le back-end.</br>
         </h3>
 
-        <h3 style="text-align:center;">Voici un petit résumé de mon parcours</h3>
+        <h3 style="text-align:center;">Et voici un petit résumé de mon parcours</h3>
 
         <div class="timeline-visual">
             <div class="timeline-card">

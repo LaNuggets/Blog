@@ -29,7 +29,7 @@
             Pour valider ma 2ème année de Bachelor Informatique à Ynov, j'ai réalisé un stage et ce blog en est la retranscription.  
         </h3>
     <p>
-        Vous y découvrirez : l'entreprise dans laquelle j'ai travaillé, mes missions, mon ressenti et mon retour d'expérience sur cette aventure.  
+        Vous y découvrirez : l'entreprise dans laquelle j'ai travaillé, mes missions, mon ressenti et mon retour d'expérience sur cette aventure.<br>
         N'hésitez pas à explorer les différentes pages pour en savoir plus et suivre mon parcours !
     </p>
     <a href="<?= base_url('/info') ?>" class="btn-posts">Découvrir l'entreprise</a>
