@@ -43,7 +43,7 @@
 
             <div class="timeline-card">
                 <h4>Formation en informatique</h4>
-                <h3>En cours (actuellement en 3ème année)</h3>
+                <h3>Sept 23 à Juil 28 (en cours)</h3>
                 <p>Bachelor Informatique à Ynov, spécialisation développement.</p>
             </div>
 

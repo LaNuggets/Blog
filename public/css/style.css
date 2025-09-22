@@ -256,6 +256,7 @@ form input, form textarea {
     background-color: #1e1e1e;
     border: 2px solid #ff5555;
     border-radius: 20px;
+    text-decoration: none;
     padding: 30px;
     width: 350px;
     text-align: center;
