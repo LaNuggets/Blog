@@ -272,16 +272,18 @@ form input, form textarea {
     margin-bottom: 20px;
     color: #ff8888;
     font-size: 22px;
-    text-decoration: none;
-}
-
-.timeline-card h3 {
-    text-decoration: none;
 }
 
 .timeline-card p {
     color: #c8c8c8;
     line-height: 1.6;
     font-size: 16px;
+}
+
+a .timeline-card,
+a .timeline-card h4,
+a .timeline-card h3,
+a .timeline-card p {
     text-decoration: none;
+    color: inherit;
 }
