@@ -28,23 +28,34 @@
         <h3 style="text-align:center;">Et voici un petit résumé de mon parcours</h3>
 
         <div class="timeline-visual">
+        <a href="<?= base_url('/blog') ?>">
             <div class="timeline-card">
                 <h4>Stage en dev web fullstack</h4>
-                <p>Stage de 2 mois à l'IRS 2 à Nantes. Développeur web fullstack, amélioration et maintenance d'une plateforme web interne.</p>
+                <h3>mai 2025 - juil 2025</h3>
+                <p>Stage de 3 mois à l'IRS 2 à Nantes. Développeur web fullstack, amélioration et maintenance d'une plateforme web interne.</p>
+            </div>
+        </a>
+            <div class="timeline-card">
+                <h4>Vendeur en boulengerie (job étudiant)</h4>
+                <h3>Fév 24 à Juil 24</h3>
+                <p>Relation client, prise de commandes, autonomie sur le magasin</p>
             </div>
 
             <div class="timeline-card">
                 <h4>Formation en informatique</h4>
-                <p>Bachelor Informatique à Ynov, spécialisation développement web et algorithmique.</p>
+                <h3>En cours (actuellement en 3ème année)</h3>
+                <p>Bachelor Informatique à Ynov, spécialisation développement.</p>
             </div>
 
             <div class="timeline-card">
                 <h4>Service civique</h4>
+                <h3>Sept 22 à Août 23</h3>
                 <p>Animation tout âge et menuiserie à la Maison des Jeux.</p>
             </div>
 
             <div class="timeline-card">
                 <h4>Baccalauréat</h4>
+                <h3>Juil 22</h3>
                 <p>Bac STI2D option SIN, mention assez bien.</p>
             </div>
         </div>
