@@ -280,10 +280,14 @@ form input, form textarea {
     font-size: 16px;
 }
 
-a .timeline-card,
-a .timeline-card h4,
-a .timeline-card h3,
-a .timeline-card p {
+a {
     text-decoration: none;
-    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
 }
